@@ -3,4 +3,11 @@ def using_concat(array1, array2)
   return array1
 end
 
-def using_insert()
+def using_insert(array, element)
+  array.insert(element)
+  return array
+end
+
+def using_uniq(array)
+  array.uniq 
+end
